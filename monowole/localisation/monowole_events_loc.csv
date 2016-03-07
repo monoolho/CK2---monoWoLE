@@ -1,0 +1,25 @@
+#CODE small test;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+monowole.0;Listen to petitioners;;;;;;;;;;;;;x
+monowole.0.desc;You decide to attend your court and listen to your petitioners personally, without interference from your steward.;;;;;;;;;;;;;x
+monowole.0.a;This will be fun!;;;;;;;;;;;;;x
+monowole.0.b;Tis my duty, one cannot postpone duty forever.;;;;;;;;;;;;;x
+monowole.0.c;Well, it can't actually kill me to do this once...;;;;;;;;;;;;;x
+monowole.0.d;This was a mistake...;;;;;;;;;;;;;x
+monowole.1;A farmer complains about his neighbour using his land;;;;;;;;;;;;;x
+monowole.1.desc;"""My liege, it has been a long time since that yard of land was mine, but my neighbour keeps planting his crops on it! On my yard of land!""";;;;;;;;;;;;;x
+monowole.1.a;Well, since it is yours by right...;;;;;;;;;;;;;x
+monowole.1.b;If you had actually used the land, it wouldn't be a problem!;;;;;;;;;;;;;x
+monowole.1.c;Your neighbour is producing, it is his now.;;;;;;;;;;;;;x
+monowole.1.d;Since you're asking nicely, I won't kill you now. Leave.;;;;;;;;;;;;;x
+monowole.2;I. Am. BORED.;;;;;;;;;;;;;x
+monowole.2.desc;Almighty! This is killing me, I will die if I have to listen to another damn hog farmer and his stupid kid complaining about the lack of berries in the nearest woods or another goddman fat merchant wanting to marry his niece!;;;;;;;;;;;;;x
+monowole.2.a;I give up. Stop it. I'm off, talk to the steward next time.;;;;;;;;;;;;;x
+monowole.2.b;Must... Hang... On...;;;;;;;;;;;;;x
+monowole.2.c;Hell, bring me more ale! Yes, MORE.;;;;;;;;;;;;;x
+monowole.2.d;I'm going to kill the next person who comes in here, GO AWAY!;;;;;;;;;;;;;x
+monowole.3;The barracks are decrepit!;;;;;;;;;;;;;x
+monowole.3.desc;"""Sire, it is absurd the state in which I find the barracks! The former quartermaster neglected it so much it brings shame to me not being able to properly train the men!""";;;;;;;;;;;;;x
+monowole.3.a;Unbearable! It won't do! Refit the barracks, armory, blacksmith and stables!;;;;;;;;;;;;;x
+monowole.3.b;A shame, really, do your best to make it fully working again.;;;;;;;;;;;;;x
+monowole.3.c;A pity, but we can only spare to make it functional.;;;;;;;;;;;;;x
+monowole.3.d;I have true faith in your skills.;;;;;;;;;;;;;x

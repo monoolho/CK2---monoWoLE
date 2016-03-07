@@ -1,0 +1,38 @@
+#################################################
+#   monoolho's Way Of Life Expansion			#
+#												#
+#   Decisons									#
+#################################################
+
+decisions = {
+
+
+monowole_attend-court = { # Attend court
+
+	effect = { 
+		character_event = { id = monowole.0 }
+			
+	potential = {
+			ai = no	
+		}
+	allow = {
+			ai = no
+			wealth = 25
+			NOT = { has_character_flag = doing_mono_stuff }
+		}
+	add_character_modifier = {
+			name = doing_mono_stuff
+			duration = 730
+			hidden = yes
+		}
+	}
+
+
+}
+
+# monowole_invest
+
+
+
+
+}

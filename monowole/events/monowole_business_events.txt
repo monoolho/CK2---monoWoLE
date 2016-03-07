@@ -1,0 +1,1290 @@
+###############################################
+#
+# monoolho's Way of Life Expansion
+#
+#  mono Events
+#
+#                            
+#		namespace: monowole. 
+#		                     
+#
+#			
+# 			Awfully written by yours truly: monoolho, the Wladimir. 
+#																	
+#
+#############################################################################
+																	
+
+	namespace = monowoleb
+	
+## INvest in something
+
+
+# Invest small, medium, Big
+#		property, trade, crop, produce
+#			property > Housing / Business / Land 
+#			trade > import / export
+#				import > food / wares / 
+
+character_event = {   #You decide to invest in something.
+	id = monowoleb.0
+	desc = monowoleb.0.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # It'll be fun
+		name = monowole.0.a
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # 'Tis my duty
+		name = monowole.0.b
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Well, can't kill me...
+		name = monowole.0.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# This was a mistake...
+		name = monowole.0.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+
+character_event = {  	 # This is killing me with boredom
+	id = monowoleb.1
+	desc = monowole.1.desc
+	is_triggered_only = yes
+	picture = GFX_evt_market_byzantine
+			
+	option = { 		# I give up, stop it.
+		name = monowole.1.a
+		hidden_tooltip = {
+			prestige = -80
+			gold = -0.5
+			
+			}
+		}
+	
+	
+	option = {		 # I must keep doing it on...
+		name = monowoleb.1.b
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = monowole.2 days = 1 }
+			}
+		}
+	}
+		
+	option = { 		# Bring me another ale, damn it!
+		name = monowole.1.c
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = monowole.3 days = 1 }
+			}
+		}
+	}
+		
+	option = { 		# I'm going to kill the next one who comes here!
+		name = monowole.1.d
+		character_event = { id = monowole.3 days = 1 }
+		hidden_tooltip = {
+			FROM = {
+				character_event = { id = monowole.3 days = 1 }
+			}
+		}
+	}
+	
+}
+
+character_event = {  	 # yard farm dispute
+	id = monowole.2
+	desc = monowole.2.desc
+	picture = GFX_evt_feast
+	is_triggered_only = yes
+	
+	
+	option = {		 # since it's yours by right
+		name = monowole.2.a
+		hidden_tooltip = {
+			FROM = {
+				prestige = 15
+			}
+		}
+	}
+	
+	option = {		 # if you had planted something...
+		name = monowole.2.b
+		prestige = 10
+		
+	}
+	
+	option = { 		# your neighbour deserves it.
+		name = monowole.2.c
+		prestige = 2
+		}
+	
+	option = { 		# since you showed respect, I won't kill you
+		name = monowole.2.d
+		prestige = 5
+		}
+}
+
+
+character_event = {  	 # the barracks are a mess!
+	id = monowole.3
+	desc = monowole.3.desc
+	picture = GFX_evt_feast
+	is_triggered_only = yes
+		
+	option = {		 # Make it fully working
+		name = monowole.3.a
+		prestige = 8
+		}
+	
+	option = { 		# Unbearable! Repair everything!
+		name = monowole.3.b
+		prestige = 3
+		}
+	
+	option = { 		# make it functional
+		name = monowole.3.c
+		prestige = 1
+	}
+	
+	option = { 		# You'll have to make do.
+		name = monowole.3.d
+		prestige = 4
+	}
+}
+
+character_event = {   # The watchtower is crumbling
+	id = monowole.4
+	desc = monowole.4.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # K, fix it.
+		name = monowole.4.a
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # Take the free works on holidays
+		name = monowole.4.b
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # I'm sure it's built to stand
+		name = monowole.4.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Take the money, rebuild all
+		name = monowole.4.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+
+character_event = {   # South entrance has bandits
+	id = monowole.5
+	desc = monowole.5.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Take the guards
+		name = monowole.5.a
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # hire more men
+		name = monowole.5.b
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Tell them to go through another gate
+		name = monowole.5.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# They'll disband soon. I'm sure.
+		name = monowole.5.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # ...And then lero lero lero, lero lero, bla bla...
+	id = monowole.6
+	desc = monowole.6.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # sorry, what?
+		name = monowole.6.a
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # Did the goat actually have milk, then?
+		name = monowole.6.b
+		allow = { trait = diligent }
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Yes, yes, whatever.
+		name = monowole.6.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Are you some sort of imbecile?
+		name = monowole.6.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # I want to marry my illegal daughter.
+	id = monowole.7
+	desc = monowole.7.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Yes
+		name = monowole.7.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # Yes, but you must pay me.
+		name = monowole.7.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Wait... no.
+		name = monowole.7.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# YOU DISGUSTING ANIMAL
+		name = monowole.7.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # Your butt hurts and head aches, you're drinking a lot
+	id = monowole.8
+	desc = monowole.8.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Can't make it without it
+		name = monowole.8.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # almighty kill me
+		name = monowole.8.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # twas duty
+		name = monowole.8.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# tomorrow again? dude...
+		name = monowole.8.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # The man who doesn't stop speaking
+	id = monowole.9
+	desc = monowole.9.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # This fly is awesome!
+		name = monowole.9.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # Sir... Your wart... Is it... Natural?
+		name = monowole.9.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # ... the herd was led by whom?
+		name = monowole.9.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Yes, yes, whatever.
+		name = monowole.9.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # Screaming in the courtyard
+	id = monowole.10
+	desc = monowole.10.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Ladies, that is amusing!
+		name = monowole.10.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # What sort of debauchery is this?
+		name = monowole.10.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # I will not have chaos on my rule!
+		name = monowole.10.c
+		hidden_tooltip = {
+			random_list = {
+				10 = { character_event = { id = monowole.1 days = 15 } }
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Enough, please.
+		name = monowole.10.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				10 = { character_event = { id = monowole.2 days = 15 } }
+				10 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # the two women fight about the child
+	id = monowole.11
+	desc = monowole.11.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # looks like the father
+		name = monowole.11.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # looks like the mother
+		name = monowole.11.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # let them resolve
+		name = monowole.11.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Solomon solved it in a nice way.
+		name = monowole.11.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # the poor are hungry
+	id = monowole.12
+	desc = monowole.12.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # of course, help them in any way
+		name = monowole.12.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # I can spare some money
+		name = monowole.12.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # We cannot spare the resources
+		name = monowole.12.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# LET THEM STARVE, ITLL MAKE THEM STRONGER
+		name = monowole.12.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # healthcare
+	id = monowole.13
+	desc = monowole.13.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # I can help it for this season.
+		name = monowole.13.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # Yes, the populace deserves it, spare no expense.
+		name = monowole.13.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # This is a ludicrous idea, not worth my money.
+		name = monowole.13.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# What? There's money to be made on this? Let's get into it!
+		name = monowole.13.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # dong pit
+	id = monowole.14
+	desc = monowole.14.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Interesting, I guess we could use the pit.
+		name = monowole.14.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # This is brilliant, build 3, far wnough from the town, and pave roads to it!
+		name = monowole.14.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # I have no money for it, it's the smell of towns, why would anyone care?
+		name = monowole.14.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Interesting, but no.
+		name = monowole.14.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # give away the leftovers
+	id = monowole.15
+	desc = monowole.15.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # It's interesting, we might do that.
+		name = monowole.15.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # It sounds good, yes.
+		name = monowole.15.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # No, the dogs, cats and pigs are fed with those.
+		name = monowole.15.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Absolutely not.
+		name = monowole.15.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # The neighbour owes me money, imprison him!
+	id = monowole.16
+	desc = monowole.16.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Have you any proof?
+		name = monowole.16.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # The evidence seems sufficient.
+		name = monowole.16.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Bring him here for a fair trial.
+		name = monowole.16.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# You're taking up my time. You will be arrested.
+		name = monowole.16.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # my bro betrayed me with my wife
+	id = monowole.17
+	desc = monowole.17.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # It's not really the concern of the court.
+		name = monowole.17.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # I cannot abide this, detain the brother, kill the wife.
+		name = monowole.17.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # No wonder, you're not man enough.
+		name = monowole.17.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Kill your brother and wife, or whatever, it's not my concern.
+		name = monowole.17.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # My cousin challenged me to a duel
+	id = monowole.18
+	desc = monowole.18.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # I forbid this behaviour.
+		name = monowole.18.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # I see, and I will save you from the duel... In the dungeons you'll be very safe.
+		name = monowole.18.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # If you grant me some of your land and monies, I will provide you with the best armor and shield.
+		name = monowole.18.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# A duel? When, I want to watch it!
+		name = monowole.18.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # Lord, I want your permission to marry
+	id = monowole.19
+	desc = monowole.19.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Of course, the allfather and grant you many children!
+		name = monowole.19.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # You see, there's a lot of people here lately, Why don't you pay your fee like everyone else?
+		name = monowole.19.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # You are aweare I will want the prima nocte.
+		name = monowole.19.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# No, I'm sure you will find another suitor.
+		name = monowole.19.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # marriage 2
+	id = monowole.20
+	desc = monowole.20.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # Yes, may you have many children!
+		name = monowole.20.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # For you, I can grant a special fee...
+		name = monowole.20.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Yes, and you'll spend the first night in my dungeon.
+		name = monowole.20.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# No, I will not allow this! NO!
+		name = monowole.20.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # Sir, I bring you my son, born on the last full moon
+	id = monowole.21
+	desc = monowole.21.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # A beautiful child, I can see he will become a might warrior one day!
+		name = monowole.21.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # I can see.. In his eyes... Take this money, raise this child well!
+		name = monowole.21.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Yes, I see, it's a child. What of it?
+		name = monowole.21.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# Good, another son.
+		name = monowole.21.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
+character_event = {   # A daughter
+	id = monowole.22
+	desc = monowole.22.desc
+	picture = GFX_event_normal_frame_diplomacy
+
+	is_triggered_only = yes
+		
+	option = {		 # A marvellous child, you'r family will be happy!
+		name = monowole.22.a
+		allow = { NOT = { trait = greedy } }
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+		name = monowole.22.b
+		allow = { trait = greedy } 
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+		
+	option = {	 # Good, a daughter.
+		name = monowole.22.c
+		hidden_tooltip = {
+			random_list = {
+				11 = { character_event = { id = monowole.1 days = 15 } }
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+	
+	option = {	 	# I can see her future... Not great. Don't bother me again.
+		name = monowole.22.d
+		hidden_tooltip = {
+			random_list = {
+				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+				11 = { character_event = { id = monowole.2 days = 15 } }
+				11 = { character_event = { id = monowole.3 days = 15 } }
+				
+			}
+		}
+	}
+}
+
