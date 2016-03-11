@@ -14,9 +14,8 @@
 #
 #############################################################################
 																	
-
 	namespace = monowole
-	
+
 ## First event. You decide to attend your court
 
 character_event = {   #You decide to listen your petitioners
@@ -43,8 +42,8 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.11 days = 15 } }
 				10 = { character_event = { id = monowole.12 days = 15 } }
 				10 = { character_event = { id = monowole.13 days = 15 } }
-				10 = { character_event = { id = monowole.14 days = 15 } }
-				10 = { character_event = { id = monowole.15 days = 15 } }
+			#	10 = { character_event = { id = monowole.14 days = 15 } }
+				10 = { hidden_tooltip = { trigger = { NOT = { has_character_flag = mono_giving_leftovers } } } character_event = { id = monowole.15 days = 15 } }
 				10 = { character_event = { id = monowole.16 days = 15 } }
 				10 = { character_event = { id = monowole.17 days = 15 } }
 				10 = { character_event = { id = monowole.18 days = 15 } }
@@ -54,12 +53,12 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.22 days = 15 } }
 				10 = { character_event = { id = monowole.23 days = 15 } }
 				10 = { character_event = { id = monowole.24 days = 15 } }
-				12 = { character_event = { id = monowole.25 days = 15 } }
-				12 = { character_event = { id = monowole.26 days = 15 } }
-				12 = { character_event = { id = monowole.27 days = 15 } }
-				10 = { character_event = { id = monowole.28 days = 15 } }
-				10 = { character_event = { id = monowole.29 days = 15 } }
-				10 = { character_event = { id = monowole.30 days = 15 } }
+				15 = { character_event = { id = monowole.25 days = 15 } }
+			#	12 = { character_event = { id = monowole.26 days = 15 } }
+			#	12 = { character_event = { id = monowole.27 days = 15 } }
+			#	10 = { character_event = { id = monowole.28 days = 15 } }
+			#	10 = { character_event = { id = monowole.29 days = 15 } }
+			#	10 = { character_event = { id = monowole.30 days = 15 } }
 				
 				
 			}
@@ -83,8 +82,8 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.11 days = 15 } }
 				10 = { character_event = { id = monowole.12 days = 15 } }
 				10 = { character_event = { id = monowole.13 days = 15 } }
-				10 = { character_event = { id = monowole.14 days = 15 } }
-				10 = { character_event = { id = monowole.15 days = 15 } }
+			#	10 = { character_event = { id = monowole.14 days = 15 } }
+				10 = { character_event = { id = monowole.15 days = 15 } hidden_tooltip = { trigger = { NOT = { has_character_flag = mono_giving_leftovers } } } }
 				10 = { character_event = { id = monowole.16 days = 15 } }
 				10 = { character_event = { id = monowole.17 days = 15 } }
 				10 = { character_event = { id = monowole.18 days = 15 } }
@@ -95,11 +94,12 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.23 days = 15 } }
 				10 = { character_event = { id = monowole.24 days = 15 } }
 				10 = { character_event = { id = monowole.25 days = 15 } }
-				10 = { character_event = { id = monowole.26 days = 15 } }
-				10 = { character_event = { id = monowole.27 days = 15 } }
-				10 = { character_event = { id = monowole.28 days = 15 } }
-				10 = { character_event = { id = monowole.29 days = 15 } }
-				10 = { character_event = { id = monowole.30 days = 15 } }
+			#	10 = { character_event = { id = monowole.26 days = 15 } }
+			#	10 = { character_event = { id = monowole.27 days = 15 } }
+			#	10 = { character_event = { id = monowole.28 days = 15 } }
+			#	10 = { character_event = { id = monowole.29 days = 15 } }
+			#	10 = { character_event = { id = monowole.30 days = 15 } }
+			}
 		}
 	}
 		
@@ -120,8 +120,8 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.11 days = 15 } }
 				10 = { character_event = { id = monowole.12 days = 15 } }
 				10 = { character_event = { id = monowole.13 days = 15 } }
-				10 = { character_event = { id = monowole.14 days = 15 } }
-				10 = { character_event = { id = monowole.15 days = 15 } }
+			#	10 = { character_event = { id = monowole.14 days = 15 } }
+				10 = { character_event = { id = monowole.15 days = 15 } hidden_tooltip = { trigger = { NOT = { has_character_flag = mono_giving_leftovers } } } }
 				10 = { character_event = { id = monowole.16 days = 15 } }
 				10 = { character_event = { id = monowole.17 days = 15 } }
 				10 = { character_event = { id = monowole.18 days = 15 } }
@@ -132,11 +132,12 @@ character_event = {   #You decide to listen your petitioners
 				18 = { character_event = { id = monowole.23 days = 15 } }
 				18 = { character_event = { id = monowole.24 days = 15 } }
 				10 = { character_event = { id = monowole.25 days = 15 } }
-				10 = { character_event = { id = monowole.26 days = 15 } }
-				10 = { character_event = { id = monowole.27 days = 15 } }
-				10 = { character_event = { id = monowole.28 days = 15 } }
-				10 = { character_event = { id = monowole.29 days = 15 } }
-				10 = { character_event = { id = monowole.30 days = 15 } }
+			#	10 = { character_event = { id = monowole.26 days = 15 } }
+			#	10 = { character_event = { id = monowole.27 days = 15 } }
+			#	10 = { character_event = { id = monowole.28 days = 15 } }
+			#	10 = { character_event = { id = monowole.29 days = 15 } }
+			#	10 = { character_event = { id = monowole.30 days = 15 } }
+			}
 		}
 	}
 	
@@ -157,8 +158,8 @@ character_event = {   #You decide to listen your petitioners
 				10 = { character_event = { id = monowole.11 days = 15 } }
 				10 = { character_event = { id = monowole.12 days = 15 } }
 				10 = { character_event = { id = monowole.13 days = 15 } }
-				10 = { character_event = { id = monowole.14 days = 15 } }
-				10 = { character_event = { id = monowole.15 days = 15 } }
+			#	10 = { character_event = { id = monowole.14 days = 15 } }
+				10 = { character_event = { id = monowole.15 days = 15 } hidden_tooltip = { trigger = { NOT = { has_character_flag = mono_giving_leftovers } } } }
 				10 = { character_event = { id = monowole.16 days = 15 } }
 				10 = { character_event = { id = monowole.17 days = 15 } }
 				10 = { character_event = { id = monowole.18 days = 15 } }
@@ -169,11 +170,11 @@ character_event = {   #You decide to listen your petitioners
 				15 = { character_event = { id = monowole.23 days = 15 } }
 				15 = { character_event = { id = monowole.24 days = 15 } }
 				10 = { character_event = { id = monowole.25 days = 15 } }
-				10 = { character_event = { id = monowole.26 days = 15 } }
-				10 = { character_event = { id = monowole.27 days = 15 } }
-				10 = { character_event = { id = monowole.28 days = 15 } }
-				10 = { character_event = { id = monowole.29 days = 15 } }
-				10 = { character_event = { id = monowole.30 days = 15 } }
+			#	10 = { character_event = { id = monowole.26 days = 15 } }
+			#	10 = { character_event = { id = monowole.27 days = 15 } }
+			#	10 = { character_event = { id = monowole.28 days = 15 } }
+			#	10 = { character_event = { id = monowole.29 days = 15 } }
+			#	10 = { character_event = { id = monowole.30 days = 15 } }
 				
 			}
 		}
@@ -419,9 +420,9 @@ character_event = {   # The watchtower is crumbling
 		piety = -10
 		hidden_tooltip = {
 			random_list = {
-				25 = effect = { piety = -20 } 
-				20 = effect = { siege_defence = -10 } 
-				20 = effect = { siege_defence = 10 }
+				25 = { effect = { piety = -20 } }
+				20 = { effect = { siege_defence = -10 } }
+				20 = { effect = { siege_defence = 10 } }
 				
 			}
 		}
@@ -431,10 +432,10 @@ character_event = {   # The watchtower is crumbling
 		name = monowole.4.c
 		
 			random_list = {
-				10 = effect = { siege_defence = -10 }
-				10 = effect = { siege_defence = -8 }
-				10 = effect = { siege_defence = -18 }
-				10 = effect = { siege_defence = -15 }
+				10 = { effect = { siege_defence = -10 } }
+				10 = { effect = { siege_defence = -8 } } 
+				10 = { effect = { siege_defence = -18 } }
+				10 = { effect = { siege_defence = -15 } }
 				10 = { add_trait = stressed  character_event = { id = 38282 } } # stressed 
 				
 				
@@ -530,7 +531,11 @@ character_event = {   # South entrance has bandits
 
 character_event = {   # ...And then lero lero lero, lero lero, bla bla...
 	id = monowole.6
-	desc = monowole.6.desc
+	desc = monowole.6.desc.1
+	desc = monowole.6.desc.2
+	desc = monowole.6.desc.3
+	desc = monowole.6.desc.4
+	desc = monowole.6.desc.5
 	picture = GFX_event_bad_news_soa
 
 	is_triggered_only = yes
@@ -546,6 +551,11 @@ character_event = {   # ...And then lero lero lero, lero lero, bla bla...
 	
 	option = {	 # Did the goat actually have milk, then?
 		name = monowole.6.b
+		desc = monowole.6.b.desc.1
+		desc = monowole.6.b.desc.2
+		desc = monowole.6.b.desc.3
+		desc = monowole.6.b.desc.4
+		desc = monowole.6.b.desc.5
 		trigger = { trait = diligent }
 		
 		effect = {
@@ -620,7 +630,7 @@ character_event = {   # I want to marry my illegal daughter.
 		
 	option = {	 # Wait... no.
 		name = monowole.7.c
-
+		trigger = { NOT = { trait = imbecile } NOT = { trait = dull } }
 		hidden_tooltip = {
 			prestige = 5
 			random_list = {
@@ -636,6 +646,8 @@ character_event = {   # I want to marry my illegal daughter.
 		trigger = {
 			NOT = { trait = cruel }
 			NOT = { trait = greedy }
+			NOT = { trait = imbecile } 
+			NOT = { trait = dull }
 			}
 		hidden_tooltip = {
 			
@@ -794,12 +806,14 @@ character_event = {   # Screaming in the courtyard
 			NOT = { trait = content }
 			NOT = { trait = zealous }
 			NOT = { trait = kind }
+			NOT = { trait = paranoid }
 			}
 		hidden_tooltip = {
 			random_list = {
 				18 = { remove_trait = stressed character_event = { id = 38313 } }
 				18 = { remove_trait = depressed character_event = { id = 38314 } }
 			}
+		}
 	}
 	
 	option = {	 # What sort of debauchery is this?
@@ -828,6 +842,7 @@ character_event = {   # Screaming in the courtyard
 		random_list = {
 			5 = { add_trait = paranoid character_event = { id = 38275 } }
 			5 = { add_trait = envious character_event = { id = 38271 } }
+		}
 		hidden_tooltip = {
 			random_list = {
 				15 = { add_trait = zealous character_event = { id = 38269 } } # zealous
@@ -862,6 +877,7 @@ character_event = {   # the two women fight about the child
 			NOT = { trait = greedy }
 			NOT = { trait = envious }
 			NOT = { trait = wroth }
+			NOT = { trait = paranoid }
 			}
 			
 		prestige = 10
@@ -894,6 +910,7 @@ character_event = {   # the two women fight about the child
 			NOT = { trait = greedy }
 			NOT = { trait = envious }
 			NOT = { trait = wroth }
+			NOT = { trait = paranoid }
 			}
 		
 		piety = 10
@@ -926,6 +943,7 @@ character_event = {   # the two women fight about the child
 			NOT = { trait = greedy }
 			NOT = { trait = envious }
 			NOT = { trait = wroth }
+			NOT = { trait = paranoid }
 			}
 		
 		
@@ -1033,6 +1051,11 @@ character_event = {   # the poor are hungry
 	
 	option = {	 	# LET THEM STARVE, ITLL MAKE THEM STRONGER
 		name = monowole.12.d
+		trigger = { NOR = {
+			 trait = kind 
+			 trait = humble 
+			 trait = charitable 
+			 } }
 		
 		prestige = -15
 		
@@ -1052,7 +1075,10 @@ character_event = {   # the poor are hungry
 
 character_event = {   # healthcare
 	id = monowole.13
-	desc = monowole.13.desc
+	desc = monowole.13.desc.1
+	desc = monowole.13.desc.2
+	desc = monowole.13.desc.3
+			
 	picture = GFX_event_Emissary_kneeling_before_throne
 
 	is_triggered_only = yes
@@ -1079,11 +1105,12 @@ character_event = {   # healthcare
 				
 			}
 			effect = {
-				tech_growth_modifier_culture = 2
-				global_tax_modifier = -0.1
+				health = 0.5
+				tech_growth_modifier_culture = 1
+				global_tax_modifier = -0.5
 				general_opinion = 2
 				levy_reinforce_rate = 10
-				land_morale = 15
+				land_morale = 10
 				duration = { months = 12 }
 		}
 			
@@ -1106,7 +1133,7 @@ character_event = {   # healthcare
 		prestige = 15
 		wealth = -150
 		piety = 200
-		general_opinion = 5
+		general_opinion = 15
 		
 			random_list = {
 				33 = { add_trait = kind character_event = { id = 38268 } } # kind
@@ -1114,12 +1141,13 @@ character_event = {   # healthcare
 				
 			}
 			effect = {
-				tech_growth_modifier_culture = 8
+				health = 0.9
+				tech_growth_modifier_culture = 5
 				global_tax_modifier = -2
 				general_opinion = 10
 				levy_reinforce_rate = 20
 				land_morale = 20
-				duration = { months = 48 }
+				duration = { months = 96 }
 		}
 	}
 		
@@ -1133,10 +1161,11 @@ character_event = {   # healthcare
 		name = monowole.13.d
 		trigger = { trait = greedy }
 		
+		wealth = -50
 		effect = {
 				global_tax_modifier = 0.5
 				general_opinion = -1
-				levy_reinforce_rate = 5
+				levy_reinforce_rate = 3
 				land_morale = 1
 				tech_growth_modifier_economy = 0.3
 				duration = { months = 24 }
@@ -1153,7 +1182,7 @@ character_event = {   # healthcare
 #		
 #	option = {		 # Interesting, I guess we could use the pit.
 #		name = monowole.14.a
-#		trigger = { NOT = { trait = greedy } }
+#		trigger = { NOT = { trait = greedy } NOT = { trait = paranoid } }
 #		
 #		scaled_wealth = -15
 #		
@@ -1188,22 +1217,30 @@ character_event = {   # give away the leftovers
 	picture = GFX_event_Bishop_preaching_from_pulpit_muslim
 
 	is_triggered_only = yes
-		
+	hidden_tooltip = { trigger = { NOT = { has_character_flag = mono_giving_leftovers } } }
 	
 	option = {	 # It sounds good, yes.
 		name = monowole.15.b
-		trigger = { NOT = { trait = greedy } }
+		trigger = { NOT = { trait = greedy } NOT = { trait = paranoid } }
 		prestige = -10
 		piety = 70
+		hidden_tooltip { 
+			set_character_flag = mono_giving_leftovers
+			duration = { years = 60 } 
+		}
 	}
 		
 	option = {	 # No, the dogs, cats and pigs are fed with those.
 		name = monowole.15.c
-		
+		piety = -5
 	}
 	
 	option = {	 	# Absolutely not.
 		name = monowole.15.d
+		hidden_tooltip { 
+			set_character_flag = mono_giving_leftovers
+			duration = { years = 60 } 
+		}
 		piety = -40
 		random_list = {
 			10 = { add_trait = cruel character_event = { id = 38259 } }  # cruel 
@@ -1224,7 +1261,7 @@ character_event = {   # The neighbour owes me money, imprison him!
 		prestige = 10
 		
 		random = {
-			50 = { { create_character } new_character = { imprison = THIS } }
+			50 = { { create_character = { age = 40 } new_character = { imprison = THIS } } }
 				
 		}
 		
@@ -1261,7 +1298,6 @@ character_event = {   # The neighbour owes me money, imprison him!
 		effect = { { create_character } new_character = { imprison = THIS } }
 	}
 }
-
 	
 character_event = {  # trial 1 - Claimant sorta guilty
 	id = monowole.16-1
@@ -1302,6 +1338,12 @@ character_event = {  # trial 1 - Claimant sorta guilty
 		name = monowole.16-1.d
 		prestige = -50
 		piety = 30
+		scaled_wealth = 0.6
+		hidden_tooltip = {
+			random_list = {
+				40 = { add_trait = just character_event = { id = 38267 } }
+			}
+		}
 	}
 	
 }
@@ -1320,6 +1362,11 @@ character_event = {  # trial 2 - Claimant clearly guilty
 	hidden_tooltip = {
 		prestige = -100
 		piety = -60
+		hidden_tooltip = {
+			random_list = {
+				40 = { add_trait = just character_event = { id = 38267 } }
+			}
+		}
 		}
 	}
 	
@@ -1346,6 +1393,8 @@ character_event = {  # trial 2 - Claimant clearly guilty
 		name = monowole.16-2.d
 		prestige = -50
 		piety = 30
+		scaled_wealth = 0.6
+		
 	}
 	
 }
@@ -1372,6 +1421,11 @@ character_event = {  # trial 3 - Neighbour clearly guilty
 	hidden_tooltip = {
 		prestige = 80
 		piety = 30
+		hidden_tooltip = {
+			random_list = {
+				40 = { add_trait = just character_event = { id = 38267 } }
+			}
+		}
 		}
 	}
 	
@@ -1389,6 +1443,7 @@ character_event = {  # trial 3 - Neighbour clearly guilty
 		name = monowole.16-3.d
 		prestige = -50
 		piety = 30
+		scaled_wealth = 0.6
 	}
 	
 }
@@ -1404,7 +1459,7 @@ character_event = {   # my bro betrayed me with my wife
 		
 	option = {		 # It's not really the concern of the court.
 		name = monowole.17.a
-		trigger = { NOT = { trait = cruel } NOT = { trait = possessed }  NOT = { trait = lunatic }  NOT = { trait = zealous } }
+		trigger = { NOR = { trait = paranoid trait = cruel trait = possessed trait = lunatic trait = zealous } }
 		
 		prestige = 5
 		random = {
@@ -1412,14 +1467,14 @@ character_event = {   # my bro betrayed me with my wife
 			8 = { add_trait = just character_event = { id = 38267 } } # just
 			
 				
-			
+		}	
 	}
 	
 	option = {	 # I cannot abide this, kill the brother and kill the wife.
 		name = monowole.17.b
-		
-		prestige = -5
-		piety = 12
+		trigger = { NOT = { trait = kind } }
+		prestige = 5
+		piety = -5
 		
 		random_list = {
 			33 = { add_trait = arbitrary character_event = { id = 38266 } }  # arbitrary
@@ -1486,6 +1541,10 @@ character_event = {   # My cousin challenged me to a duel
 		random_list = {
 			40 = { add_trait = arbitrary character_event = { id = 38266 } }  # arbitrary
 			}
+		hidden_tooltip = { 
+			character_event = { id = monowole.18-1 } 
+			days = 7
+		}
 	}
 	
 	option = {	 	# A duel? When, I want to watch it!
@@ -1497,9 +1556,13 @@ character_event = {   # My cousin challenged me to a duel
 				}
 			}
 			
-		prestige = 10
-		remove_trait = stressed 
+		prestige = 10   
+		
 		character_event = { id = 38313 } # remove stressed
+		hidden_tooltip = { 
+			character_event = { id = monowole.18-1 } 
+			days = 7
+		}
 		random_list = {
 			40 = { remove_trait = depressed character_event = { id = 38314 } }  # remove depressed
 			20 = { remove_trait = shy character_event = { id = 38295 } }  # remove shy
@@ -1508,16 +1571,33 @@ character_event = {   # My cousin challenged me to a duel
 	}
 }
 
+# The duel short event - maybe make moar, eventually
+
+character_event = {  # DUEL 1
+	id = monowole.18-1
+	desc = monowole.18-1.desc.1
+	desc = monowole.18-1.desc.2
+	desc = monowole.18-1.desc.3
+	picture = GFX_event_Knights_melee_battle
+	is_triggered_only = yes
+	
+	option = {  #interesting
+		name = monowole.18-1.a
+	}
+}
+	
 character_event = {   # Lord, I want your permission to marry
 	id = monowole.19
-	desc = monowole.19.desc
+	desc = monowole.19.desc.1
+	desc = monowole.19.desc.2
+	desc = monowole.19.desc.3
 	picture = GFX_event_zoroastrian_marriage_oldgods
 
 	is_triggered_only = yes
 		
 	option = {		 # Of course, the allfather and grant you many children!
 		name = monowole.19.a
-		trigger = { NOT = { trait = greedy } }
+		trigger = { NOT = { trait = greedy } NOT = { trait = envious } NOT = { trait = paranoid } }
 		
 		prestige = 10
 		piety = 10
@@ -1534,7 +1614,14 @@ character_event = {   # Lord, I want your permission to marry
 		
 	option = {	 # You are aware I will want the prima nocte.
 		name = monowole.19.c
-		trigger = { is_female = no }
+		trigger = {
+			OR = {
+				NOT = { trait = kind }
+				NOT = { trait = temperate}
+				NOT = { trait = paranoid }
+				}
+				{ female = no } 
+			}
 		
 		prestige = -10
 		effect = { 
@@ -1551,14 +1638,8 @@ character_event = {   # Lord, I want your permission to marry
 	
 	option = {	 	# No, I'm sure you will find another suitor.
 		name = monowole.19.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		
+		piety = -4
 	}
 }
 
@@ -1571,52 +1652,41 @@ character_event = {   # marriage 2
 		
 	option = {		 # Yes, may you have many children!
 		name = monowole.20.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		trigger = { NOT = { trait = greedy } NOT = { trait = envious } NOT = { trait = paranoid } }
+		
+		prestige = 10
+		piety = 10
 	}
 	
 	option = {	 # For you, I can grant a special fee...
 		name = monowole.20.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+		
+		scaled_wealth = 5
+		random_list = {
+			40 = { add_trait = arbitrary character_event = { id = 38266 } }  # arbitrary
 			}
-		}
 	}
 		
 	option = {	 # Yes, and you'll spend the first night in my dungeon.
 		name = monowole.20.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+		trigger = {
+			OR = {
+				NOT = { trait = kind }
+				NOT = { trait = temperate}
+				}
 			}
-		}
+		prestige = -30
+		piety = -20
+		add_trait = arbitrary
+		character_event = { id = 38266 }
+		
+		effect = { { create_character = { age = 37 female = yes } } new_character = { imprison = THIS } }
 	}
 	
 	option = {	 	# No, I will not allow this! NO!
 		name = monowole.20.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		prestige = -15
+		piety = -15
 	}
 }
 
@@ -1627,27 +1697,90 @@ character_event = {   # Sir, I bring you my son, born on the last full moon
 
 	is_triggered_only = yes
 		
-	option = {		 # A beautiful child, I can see he will become a might warrior one day!
+	option = {		 # A beautiful child, I can see he will become a mighty warrior one day!
 		name = monowole.21.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { trait = paranoid }
 			}
+		prestige = 10
+		
+		hidden_tooltip = {
+			effect = { months = 192 create_random_soldier = {
+					random_traits = yes
+					martial = 18
+					age = 16
+					is_female = no
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
 		}
 	}
 	
 	option = {	 # I can see.. In his eyes... Take this money, raise this child well!
 		name = monowole.21.b
-		allow = { trait = greedy } 
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { trait = paranoid }
+			}
+		
+		scaled_wealth = -30
+		prestige = 10
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				25 = { months = 192 create_random_diplomat = {
+					random_traits = yes
+					trait = genius 
+					learning = 16
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = no
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+				
+				25 = { months = 192 create_random_soldier = {
+					random_traits = yes
+					trait = genius 
+					learning = 16
+					stewardship = 16
+					martial = 18
+					age = 16
+					is_female = no
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+					
+
+				25 = { months = 192 create_random_priest = {
+					random_traits = yes
+					trait = genius 
+					learning = 18
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = no
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+					
+				25 = { months = 192 create_random_intriguer = {
+					random_traits = yes
+					trait = genius 
+					learning = 16
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = no
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
 				
 			}
 		}
@@ -1655,11 +1788,11 @@ character_event = {   # Sir, I bring you my son, born on the last full moon
 		
 	option = {	 # Yes, I see, it's a child. What of it?
 		name = monowole.21.c
+		
+		scaled_wealth = 0.1
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				30 = { add_trait = cynical character_event = { id = 38258 } }
 				
 			}
 		}
@@ -1667,32 +1800,36 @@ character_event = {   # Sir, I bring you my son, born on the last full moon
 	
 	option = {	 	# Good, another son.
 		name = monowole.21.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		wealth = 0.5
 	}
 }
 
 character_event = {   # A daughter
 	id = monowole.22
-	desc = monowole.22.desc
+	desc = monowole.22.desc.1
+	desc = monowole.21.desc.2
+	desc = monowole.21.desc.3
 	picture = GFX_event_Mother_holding_newborn_muslim
 
 	is_triggered_only = yes
 		
-	option = {		 # A marvellous child, you'r family will be happy!
+	option = {		 # A marvellous child, your family will be happy!
 		name = monowole.22.a
-		allow = { NOT = { trait = greedy } }
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { trait = paranoid }
+			}
+		prestige = 8
+		
 		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+			effect = {
+				create_character = {
+				age = 0
+				trait = fair
+				liege_opinion = 50
+				is_female = yes
+				
+			}
 				
 			}
 		}
@@ -1700,12 +1837,71 @@ character_event = {   # A daughter
 	
 	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
 		name = monowole.22.b
-		allow = { trait = greedy } 
+		trigger = {
+			NOT = { trait = cynical }
+			NOT = { trait = paranoid }
+			}
+			
+		prestige = 10
+		scaled_wealth = -30
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				25 = { months = 192 create_random_diplomat = {
+					random_traits = yes
+					trait = genius 
+					trait = fair
+					learning = 16
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = yes
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+				
+				25 = { months = 192 create_random_soldier = {
+					random_traits = yes
+					trait = genius 
+					trait = fair
+					learning = 16
+					stewardship = 16
+					martial = 18
+					age = 16
+					is_female = yes
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+					
+
+				25 = { months = 192 create_random_priest = {
+					random_traits = yes
+					trait = genius 
+					trait = fair
+					learning = 18
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = yes
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
+					
+				25 = { months = 192 create_random_intriguer = {
+					random_traits = yes
+					trait = genius 
+					trait = fair
+					learning = 16
+					stewardship = 16
+					martial = 16
+					age = 16
+					is_female = yes
+					dynasty = random
+					liege_opinion = 100
+					character_event = { id = monowole.21-1 months = 192}
+					} }
 				
 			}
 		}
@@ -1713,489 +1909,851 @@ character_event = {   # A daughter
 		
 	option = {	 # Good, a daughter.
 		name = monowole.22.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		
+		wealth = 0.5
 	}
 	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
+	option = {	 	# Yes, a child, so?
 		name = monowole.22.d
+		scaled_wealth = 0.1
+		prestige = -1
 		hidden_tooltip = {
 			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				30 = { add_trait = cynical character_event = { id = 38258 } }
 				
 			}
 		}
 	}
 }
 
+character_event = { # the child presented at court 16 years ago has come to court
+	id = monowole.22-1
+	desc = monowole.22-1.desc
+	picture = GFX_event_Emissary_kneeling_before_throne
+	is_triggered_only = yes
+	
+	option = { # Excellent
+		name = monowole.22-1.a
+		prestige = 25
+		}
+		
+	}
+
 character_event = {   # Assassin - enraged
 	id = monowole.23
-	desc = monowole.23.desc
+	desc = monowole.23.desc.1
+	desc = monowole.23.desc.2
+	desc = monowole.23.desc.3
+	desc = monowole.23.desc.4
+	desc = monowole.23.desc.5
 	picture = GFX_event_family_feud_republic
 
 	is_triggered_only = yes
 		
-	option = {		 # A marvellous child, you'r family will be happy!
+	option = {		 # duck and run
 		name = monowole.23.a
-		allow = { NOT = { trait = greedy } }
+		trigger = {
+			NOT = { trait = brave }
+			}
+			
+		prestige = -30
+		random = {
+			25 = { effect = { add_trait = craven character_event = { id = 38257 } } } # craven
+			20 = { effect = { add_trait = paranoid character_event = { id = 38275 } } } # paranoid
+		}
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				15 = { # get caught 
+					character_event = { id = monowole.23-3 }
+				}
 				
+				
+				85 = { # escape
+					character_event = { id = monowole.23-2 }
+				}
 			}
 		}
 	}
 	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+	option = {	 # draw your sword
 		name = monowole.23.b
-		allow = { trait = greedy } 
+		trigger = {
+			NOT = { trait = craven }
+			}
+		prestige = 5
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+				40 = { character_event = { id = monowole.23-1 } } # you parry
+				40 = { character_event = { id = monowole.23-2 } } # didnt reach you
+				20 = { character_event = { id = monowole.23-3 } } # get caught
 			}
 		}
 	}
 		
-	option = {	 # Good, a daughter.
-		name = monowole.23.c
+}
+
+character_event = { # The assassin reaches you very quickly, but you have time to parry
+	id = monowole.23-1
+	desc = monowole.23-1.desc.1
+	desc = monowole.23-1.desc.2
+	desc = monowole.23-1.desc.3
+	picture = GFX_event_family_feud_republic
+	is_triggered_only = yes 
+	
+	option = { # Hold him in place through combat
+		name = monowole.23-1.a
+		
+		prestige = 5
+		random_list = {
+			30 = { add_trait = brave character_event = { id = 38270 } } # brave
+		
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				28 = { character_event = { id = monowole.23-2-1 } } 
+				28 = { character_event = { id = monowole.23-2-2 } }
+				28 = { character_event = { id = monowole.23-2-3 } }
+				16 = { character_event = { id = monowole.23-3 } } # killed before fight
+			}
+		}
+	}
+	}
+	
+	option = { # Charge him and try to attack
+		name = monowole.23-1.b
+		trigger = {
+				NOT = { trait = craven }
+				}
+		
+		prestige = 20
 				
+		hidden_tooltip = {
+			random_list = {
+				30 = { character_event = { id = monowole.23-2-1 } } # kill
+				35 = { character_event = { id = monowole.23-2-2 } } # hold to death
+				23 = { character_event = { id = monowole.23-2-3 } } # get killed
+				12 = { character_event = { id = monowole.23-3 } } # killed before fight
 			}
 		}
 	}
 	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.23.d
+	option = { # Stand and wait
+		name = monowole.23-1.c
+		
+		random_list = { 
+			30 = { add_trait = craven character_event = { id = 38257 } }
+		}
+		
 		hidden_tooltip = {
+		
+			prestige = -5
 			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				30 = { character_event = { id = monowole.23-1-1 } } 
+				30 = { character_event = { id = monowole.23-1-2 } }
+				30 = { character_event = { id = monowole.23-1-3 } }
+				10 = { character_event = { id = monowole.23-3 } }
+			} 
+		}
+	}
+
+}
+	
+character_event = { # the assassin cannot reach you in time
+	id = monowole.23-2
+	desc = monowole.23-2.desc.1
+	desc = monowole.23-2.desc.2
+	desc = monowole.23-2.desc.3
+	picture = GFX_event_family_feud_republic
+	is_triggered_only = yes 
+	
+	option = { # Arrest him!
+		name = monowole.23-2.a
+		
+		random_list = {
+		
+			30 = { character_event = { id = monowole.23-1-1 } 
 				
+			}
+			
+			30 = { character_event = { id = monowole.23-1-2 }  
+				
+			}
+			
+			30 = { character_event = { id = monowole.23-1-3 }
+			
+			}
+			
+			10 = { character_event = { id = monowole.23-3 } } # killed before fight
+		}
+	}
+	
+	option = { # Charge him and try to attack
+		name = monowole.23-2.b
+		trigger = {
+				NOT = { trait = craven }
+				}
+		prestige = 15		
+		random_list = {
+		
+			30 = { character_event = { id = monowole.23-2-1 } 
+				
+			}
+						
+			30 = { character_event = { id = monowole.23-2-2 }  
+				
+			}
+			40 = { character_event = { id = monowole.23-2-3 }
+			
 			}
 		}
 	}
+	
+	option = { # Run away
+		name = monowole.23-2.c
+		trigger = {
+				NOT = { trait = brave }
+				}
+				
+		random_list = { 
+			50 = { add_trait = craven character_event = { id = 38257 } }
+		}
+		
+		hidden_tooltip = {
+			random_list = {
+				1 = { character_event = { id = monowole.23-3 } } # killed before fight
+				33 = { character_event = { id = monowole.23-1-1 } 
+				
+					}	
+				33 = { character_event = { id = monowole.23-1-2 }  
+						
+					}
+					
+				33 = { character_event = { id = monowole.23-1-3 }
+					
+					}
+				}
+			}
+		
+	}
+
 }
+
+character_event = { # The assassin reaches you and before you know it, his sword is through your throat.
+	id = monowole.23-3
+	desc = monowole.23-3.desc.1
+	desc = monowole.23-3.desc.2
+	desc = monowole.23-3.desc.3
+	desc = monowole.23-3.desc.4
+	desc = monowole.23-3.desc.5
+	picture = GFX_event_family_feud_republic
+	is_triggered_only = yes 
+	
+	option = { # Gh-ghhhh gh arh ghaah hsshh
+		name = monowole.23-3.a
+		desc = mono-gasp-dying.1
+		desc = mono-gasp-dying.2
+		desc = mono-gasp-dying.3
+		desc = mono-gasp-dying.4
+		desc = mono-gasp-dying.5
+		
+		trigger = { NOR = {
+				 trait = temperate 
+				 trait = patient  
+				} }
+		hidden_tooltip = { prestige = -5 
+			random_list = {
+				35 = { character_event = { id = monowole.death1 } } # dies
+				
+			
+				10 = { # wounded 
+					effect = { add_trait = wounded character_event = { id = 38280 } }
+					
+				}
+				
+				35 = { # maimed
+					effect = { add_trait = maimed character_event = { id = 38281 } }
+				}
+				
+				20 = { # incapable
+					effect = { add_trait = incapable character_event = { id = 245  } }
+				}
+			}
+		}
+		
+	}
+	
+	option = { # ...
+		name = monowole.23-3.b
+		trigger = {
+				NOT = { trait = craven }
+				}
+		hidden_tooltip = { prestige = 1 
+			random_list = {
+				35 = { character_event = { id = monowole.death1 } } # dies
+				
+			
+				20 = { # wounded 
+					effect = { add_trait = wounded character_event = { id = 38280 } }
+					
+				}
+				
+				20 = { # maimed
+					effect = { add_trait = maimed character_event = { id = 38281 } }
+				}
+				
+				25 = { # incapable
+					effect = { add_trait = incapable character_event = { id = 245  } }
+				}
+			}
+				
+		}
+	}
+	
+	option = { # N-ghhhhhh!...
+		name = monowole.23-3.c
+		desc = mono-cowrd-dying.1
+		desc = mono-cowrd-dying.2
+		desc = mono-cowrd-dying.3
+		desc = mono-cowrd-dying.4
+		desc = mono-cowrd-dying.5
+		
+		trigger = { OR = {
+				NOT = { trait = temperate }
+				NOT = { trait = patient } 
+				} }
+		hidden_tooltip = { prestige = -10 
+			random_list = {
+				25 = { character_event = { id = monowole.death1 } } # dies
+				
+			
+				15 = { # wounded 
+					effect = { add_trait = wounded character_event = { id = 38280 } }
+					
+				}
+				
+				30 = { # maimed
+					effect = { add_trait = maimed character_event = { id = 38281 } }
+				}
+				
+				30 = { # incapable
+					effect = { add_trait = incapable character_event = { id = 245  } }
+				}
+			}
+		
+		}
+		}
+	}
+
+##
+# 
+##
+
+character_event = { # You keep parrying and slit the assassin's throat
+	id = monowole.23-2-1
+	desc = monowole.23-2-1.desc.1
+	desc = monowole.23-2-1.desc.2
+	desc = monowole.23-2-1.desc.3
+	picture = GFX_event_Knights_melee_battle_muslim
+	
+	is_triggered_only = yes 
+	
+	option = { # Die! DIE! DIE!
+		name = monowole.23-2-1.a 
+		prestige = 40
+	}
+}
+
+character_event = { # The assassins keeps parrying your attacks, suddenly a spear through his head
+	id = monowole.23-2-2
+	desc = monowole.23-2-2.desc.1
+	desc = monowole.23-2-2.desc.2
+	desc = monowole.23-2-2.desc.3
+	picture = GFX_event_Knights_melee_battle_muslim
+	is_triggered_only = yes 
+	
+	option = { # That was close.
+		name = monowole.23-2-2.a 
+		prestige = 15
+	}
+}
+
+character_event = { # You parry, then the assassin parries, you feel an imbalance, and when you notice it, a burning in your chest is bleeding
+	id = monowole.23-2-3
+	desc = monowole.23-2-3.desc
+	picture = GFX_event_Knights_melee_battle_muslim
+	is_triggered_only = yes 
+	
+	option = { # But... how...?
+		name = monowole.23-2-3.a 
+		prestige = -5
+		
+		hidden_tooltip = {
+			random_list = {
+			
+				25 = { # die
+					effect = { character_event = { id = monowole.death1 } }
+				}
+			
+				25 = { # wounded 
+					effect = { add_trait = wounded character_event = { id = 38280 } }
+					
+				}
+				
+				25 = { # maimed
+					effect = { add_trait = maimed character_event = { id = 38281 } }
+				}
+				
+				25 = { # incapable
+					effect = { add_trait = incapable character_event = { id = 245  } }
+				}
+			}
+		}
+	}
+	
+}
+
+character_event = {  #You feel the cold embrace of death
+	id = monowole.death1
+	desc = monowole.death1.desc.1
+	desc = monowole.death1.desc.2
+	desc = monowole.death1.desc.3
+	
+	is_triggered_only = yes
+	
+	option = { It's over now
+		name = monowole.death1.a
+		effect = { death = { death_reason = death_murder }  }
+		
+		}
+}
+
+character_event = { # the guards reach the assassin in time, he fights and dies.
+	id = monowole.23-1-1
+	desc = monowole.23-1-1.desc
+	picture = GFX_event_Blues_Greens_Riot
+	is_triggered_only = yes 
+	
+	option = { # A pity.
+		name =  monowole.23-1-1.a
+		
+		prestige = 15
+	}
+}
+
+character_event = { # the guards reach the assassin, he fights and gets away.
+	id = monowole.23-1-2
+	desc =  monowole.23-1-2.desc
+	picture = GFX_event_Blues_Greens_Riot
+	is_triggered_only = yes 
+	
+	option = { # How did he manage that?
+		name = monowole.23-1-2.a
+		prestige = -2
+	}
+}
+
+character_event = { # the assassin slits his own throat
+	id = monowole.23-1-3
+	desc = monowole.23-1-3.desc
+	picture = GFX_event_Blues_Greens_Riot
+	is_triggered_only = yes 
+	option = { # Coward or brave?
+		name = monowole.23-1-3.a
+		prestige = 5
+	}
+}
+
+
+
 
 character_event = {   # Assassin - hired
 	id = monowole.24
-	desc = monowole.24.desc
+	desc = monowole.24.desc.1
+	desc = monowole.24.desc.2
+	desc = monowole.24.desc.3
 	picture = GFX_event_Knights_melee_battle_muslim
 
 	is_triggered_only = yes
 		
-	option = {		 # A marvellous child, you'r family will be happy!
+	option = {		 # duck and run
 		name = monowole.24.a
-		allow = { NOT = { trait = greedy } }
+		trigger = {
+			NOT = { trait = brave }
+			}
+			
+		prestige = -30
+		random_list = {
+			10 = { add_trait = craven character_event = { id = 38257 } } # craven
+			10 = { add_trait = paranoid character_event = { id = 38275 } }  # paranoid
+		}
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				40 = { # get caught 
+					character_event = { id = monowole.23-3 }
+				}
 				
+				
+				60 = { # escape
+					character_event = { id = monowole.23-2 }
+				}
 			}
 		}
 	}
 	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+	option = {	 # draw your sword
 		name = monowole.24.b
-		allow = { trait = greedy } 
+		trigger = {
+			NOT = { trait = craven }
+			}
+		prestige = 5
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+				30 = { character_event = { id = monowole.23-1 } } # you parry
+				20 = { character_event = { id = monowole.23-2 } } # didnt reach you
+				50 = { character_event = { id = monowole.23-3 } } # get caught
 			}
 		}
 	}
 		
-	option = {	 # Good, a daughter.
-		name = monowole.24.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.24.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
 }
 
 character_event = {   # my brother has come from a great adventure, he brings you gifts
 	id = monowole.25
-	desc = monowole.25.desc
+	desc = monowole.25.desc.1
+	desc = monowole.25.desc.2
+	desc = monowole.25.desc.3
 	picture = GFX_event_viking_throneroom_oldgods
 
 	is_triggered_only = yes
 		
-	option = {		 # A marvellous child, you'r family will be happy!
+	option = {		 # I want MORE
 		name = monowole.25.a
-		allow = { NOT = { trait = greedy } }
+		
+		scaled_wealth = 45
+		piety = -10
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
+				50 = { add_trait = greedy character_event = { id = 38252 } }
+								
 			}
 		}
 	}
 	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+	option = {	 # Excellent! I am grateful!
 		name = monowole.25.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
+		trigger = { NOT = { trait = greedy } }
+		
+		wealth = 40
+		prestige = 2
+		
+		
 	}
 		
-	option = {	 # Good, a daughter.
+	option = {	 # There's no need
 		name = monowole.25.c
+		trigger = { NOT = { trait = greedy } }
+		
+		piety = 15
+		prestige = 15
 		hidden_tooltip = {
 			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
+				20 = { add_trait = humble character_event = { id = 38260 } } # add humble
+				20 = { add_trait = kind character_event = { id = 38268 } } # add kind
+				20 = { add_trait = charitable  character_event = { id = 38273 } } # add charitable
 				
 			}
 		}
 	}
 	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.25.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
+	
 }
-
-character_event = {   # Gift - DOG
-	id = monowole.26
-	desc = monowole.26.desc
-	picture = GFX_event_viking_throneroom_oldgods
-
-	is_triggered_only = yes
-		
-	option = {		 # A marvellous child, you'r family will be happy!
-		name = monowole.26.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
-		name = monowole.26.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-		
-	option = {	 # Good, a daughter.
-		name = monowole.26.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.26.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-}
-
-character_event = {   # Gift - Cat
-	id = monowole.27
-	desc = monowole.27.desc
-	picture = GFX_event_viking_throneroom_oldgods
-
-	is_triggered_only = yes
-		
-	option = {		 # A marvellous child, you'r family will be happy!
-		name = monowole.27.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
-		name = monowole.27.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-		
-	option = {	 # Good, a daughter.
-		name = monowole.27.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.27.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-}
-
-character_event = {   # The court needs better decorations
-	id = monowole.28
-	desc = monowole.28.desc
-	picture = GFX_event_viking_throneroom_oldgods
-
-	is_triggered_only = yes
-		
-	option = {		 # A marvellous child, you'r family will be happy!
-		name = monowole.28.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
-		name = monowole.28.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-		
-	option = {	 # Good, a daughter.
-		name = monowole.28.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.28.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-}
-
-character_event = {   # The court needs better seats for the attendants.
-	id = monowole.29
-	desc = monowole.29.desc
-	picture = GFX_event_viking_throneroom_oldgods
-
-	is_triggered_only = yes
-		
-	option = {		 # A marvellous child, you'r family will be happy!
-		name = monowole.29.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
-		name = monowole.29.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-		
-	option = {	 # Good, a daughter.
-		name = monowole.29.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.29.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-}
-
-character_event = {   # The traders guild wants fixed streets
-	id = monowole.30
-	desc = monowole.30.desc
-	picture = GFX_event_viking_throneroom_oldgods
-
-	is_triggered_only = yes
-		
-	option = {		 # A marvellous child, you'r family will be happy!
-		name = monowole.30.a
-		allow = { NOT = { trait = greedy } }
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
-		name = monowole.30.b
-		allow = { trait = greedy } 
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-		
-	option = {	 # Good, a daughter.
-		name = monowole.30.c
-		hidden_tooltip = {
-			random_list = {
-				11 = { character_event = { id = monowole.1 days = 15 } }
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-	
-	option = {	 	# I can see her future... Not great. Don't bother me again.
-		name = monowole.30.d
-		hidden_tooltip = {
-			random_list = {
-				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
-				11 = { character_event = { id = monowole.2 days = 15 } }
-				11 = { character_event = { id = monowole.3 days = 15 } }
-				
-			}
-		}
-	}
-}
+####
+#####character_event = {   # Gift - DOG
+#####	id = monowole.26
+#####	desc = monowole.26.desc
+#####	picture = GFX_event_viking_throneroom_oldgods
+#####
+#####	is_triggered_only = yes
+#####		
+#####	option = {		 # A marvellous child, you'r family will be happy!
+#####		name = monowole.26.a
+#####		
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+#####		name = monowole.26.b
+#####		
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####		
+#####	option = {	 # Good, a daughter.
+#####		name = monowole.26.c
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 	# I can see her future... Not great. Don't bother me again.
+#####		name = monowole.26.d
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####}
+#####
+#####character_event = {   # Gift - Cat
+#####	id = monowole.27
+#####	desc = monowole.27.desc
+#####	picture = GFX_event_viking_throneroom_oldgods
+#####
+#####	is_triggered_only = yes
+#####		
+#####	option = {		 # A marvellous child, you'r family will be happy!
+#####		name = monowole.27.a
+#####		
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+#####		name = monowole.27.b
+#
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####		
+#####	option = {	 # Good, a daughter.
+#####		name = monowole.27.c
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 	# I can see her future... Not great. Don't bother me again.
+#####		name = monowole.27.d
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####}
+####
+#####character_event = {   # The court needs better decorations
+#####	id = monowole.28
+#####	desc = monowole.28.desc
+#####	picture = GFX_event_viking_throneroom_oldgods
+#####
+#####	is_triggered_only = yes
+#####		
+#####	option = {		 # Useless.
+#####		name = monowole.28.a
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+#####		name = monowole.28.b
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####		
+#####	option = {	 # Good, a daughter.
+#####		name = monowole.28.c
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 	# I can see her future... Not great. Don't bother me again.
+#####		name = monowole.28.d
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####}
+#####
+#####character_event = {   # The court needs better seats for the attendants.
+#####	id = monowole.29
+#####	desc = monowole.29.desc
+#####	picture = GFX_event_viking_throneroom_oldgods
+#####
+#####	is_triggered_only = yes
+#####		
+#####	option = {		 # A marvellous child, you'r family will be happy!
+#####		name = monowole.29.a
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+#####		name = monowole.29.b
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####		
+#####	option = {	 # Good, a daughter.
+#####		name = monowole.29.c
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 	# I can see her future... Not great. Don't bother me again.
+#####		name = monowole.29.d
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####}
+#####
+#####character_event = {   # The traders guild wants fixed streets
+#####	id = monowole.30
+#####	desc = monowole.30.desc
+#####	picture = GFX_event_viking_throneroom_oldgods
+#####
+#####	is_triggered_only = yes
+#####		
+#####	option = {		 # A marvellous child, you'r family will be happy!
+#####		name = monowole.30.a
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 # She's... Beautiful... I can sense something. I will help you raise this child!
+#####		name = monowole.30.b
+#####	
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####		
+#####	option = {	 # Good, a daughter.
+#####		name = monowole.30.c
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				11 = { character_event = { id = monowole.1 days = 15 } }
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####	
+#####	option = {	 	# I can see her future... Not great. Don't bother me again.
+#####		name = monowole.30.d
+#####		hidden_tooltip = {
+#####			random_list = {
+#####				50 = { character_event = { id = monowole.1 days = 15 } } #tedious
+#####				11 = { character_event = { id = monowole.2 days = 15 } }
+#####				11 = { character_event = { id = monowole.3 days = 15 } }
+#####				
+#####			}
+#####		}
+#####	}
+#####}
+####
