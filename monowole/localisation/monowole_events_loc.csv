@@ -5,21 +5,264 @@ monowole.0.a;This will be fun!;;;;;;;;;;;;;x
 monowole.0.b;Tis my duty, one cannot postpone duty forever.;;;;;;;;;;;;;x
 monowole.0.c;Well, it can't actually kill me to do this once...;;;;;;;;;;;;;x
 monowole.0.d;This was a mistake...;;;;;;;;;;;;;x
-monowole.1;A farmer complains about his neighbour using his land;;;;;;;;;;;;;x
-monowole.1.desc;"""My liege, it has been a long time since that yard of land was mine, but my neighbour keeps planting his crops on it! On my yard of land!""";;;;;;;;;;;;;x
-monowole.1.a;Well, since it is yours by right...;;;;;;;;;;;;;x
-monowole.1.b;If you had actually used the land, it wouldn't be a problem!;;;;;;;;;;;;;x
-monowole.1.c;Your neighbour is producing, it is his now.;;;;;;;;;;;;;x
-monowole.1.d;Since you're asking nicely, I won't kill you now. Leave.;;;;;;;;;;;;;x
-monowole.2;I. Am. BORED.;;;;;;;;;;;;;x
-monowole.2.desc;Almighty! This is killing me, I will die if I have to listen to another damn hog farmer and his stupid kid complaining about the lack of berries in the nearest woods or another goddman fat merchant wanting to marry his niece!;;;;;;;;;;;;;x
-monowole.2.a;I give up. Stop it. I'm off, talk to the steward next time.;;;;;;;;;;;;;x
-monowole.2.b;Must... Hang... On...;;;;;;;;;;;;;x
-monowole.2.c;Hell, bring me more ale! Yes, MORE.;;;;;;;;;;;;;x
-monowole.2.d;I'm going to kill the next person who comes in here, GO AWAY!;;;;;;;;;;;;;x
+monowole.1;I. Am. BORED.;;;;;;;;;;;;;x
+monowole.1.desc;[GetHighGodName]! This is killing me, I will die if I have to listen to another damn hog farmer and his stupid kid complaining about the lack of berries in the nearest woods or another goddman fat merchant wanting to marry his niece!;;;;;;;;;;;;;x
+monowole.1.a;I give up. Stop it. I'm off, talk to the steward next time.;;;;;;;;;;;;;x
+monowole.1.b;Must... Hang... On...;;;;;;;;;;;;;x
+monowole.1.c;Hell, bring me more ale! Yes, MORE.;;;;;;;;;;;;;x
+monowole.1.d;I'm going to kill the next person who comes in here, GO AWAY!;;;;;;;;;;;;;x
+monowole.2;A farmer complains about his neighbour using his land;;;;;;;;;;;;;x
+monowole.2.desc;[GetTitledName], it has been a long time since that yard of land was mine, but my neighbour keeps planting his crops on it! On my yard of land!;;;;;;;;;;;;;x
+monowole.2.a;Well, since it is yours by right...;;;;;;;;;;;;;x
+monowole.2.b;If you had actually used the land, it wouldn't be a problem!;;;;;;;;;;;;;x
+monowole.2.c;Your neighbour is producing, it is his now.;;;;;;;;;;;;;x
+monowole.2.d;Since you're asking nicely, I won't kill you now. Leave.;;;;;;;;;;;;;x
 monowole.3;The barracks are decrepit!;;;;;;;;;;;;;x
-monowole.3.desc;"""Sire, it is absurd the state in which I find the barracks! The former quartermaster neglected it so much it brings shame to me not being able to properly train the men!""";;;;;;;;;;;;;x
+monowole.3.desc;[GetTitle], it is absurd the state in which I find the barracks! The former quartermaster neglected it so much it brings shame to me not being able to properly train the men!;;;;;;;;;;;;;x
 monowole.3.a;Unbearable! It won't do! Refit the barracks, armory, blacksmith and stables!;;;;;;;;;;;;;x
 monowole.3.b;A shame, really, do your best to make it fully working again.;;;;;;;;;;;;;x
 monowole.3.c;A pity, but we can only spare to make it functional.;;;;;;;;;;;;;x
 monowole.3.d;I have true faith in your skills.;;;;;;;;;;;;;x
+monowole.3-1;Barracks fixed;;;;;;;;;;;;;x
+monowole.3-1.desc;The barracks were fixed, as you ordered, [GetTitle].;;;;;;;;;;;;;x
+monowole.3-1.a;Good.;;;;;;;;;;;;;x
+monowole.3-2;Military buildings fixed;;;;;;;;;;;;;x
+monowole.3-2.desc;Everything was fixed and rebuild, [GetTitle].;;;;;;;;;;;;;x
+monowole.3-2.a;Excellent!;;;;;;;;;;;;;x
+monowole.4;Watchtower problem;;;;;;;;;;;;;x
+monowole.4.desc;[GetTitle], the easternmost watchtower is crumbling, we need to repair ir at once or we risk it not whitstanding another storm!;;;;;;;;;;;;;x
+monowole.4.a;Fix it with the money you need.;;;;;;;;;;;;;x
+monowole.4.b;Take the free workers on sundays and holidays.;;;;;;;;;;;;;x
+monowole.4.c;I'm sure the builder  made it to stand at least another 3 generations...;;;;;;;;;;;;;x
+monowole.4.d;Take the money, hire a master builder and rebuild the towers and walls.;;;;;;;;;;;;;x
+monowole.5;Bandits on southern entrance;;;;;;;;;;;;;x
+monowole.5.desc;[GetTitledName], the southern exit of the town is infested with bandits, the guild of merchants has already made petitions and even hired some mercenaries, but with the current state of affairs it had no avail.;;;;;;;;;;;;;x
+monowole.5.a;Take some of the guards and warriors and kill them.;;;;;;;;;;;;;x
+monowole.5.b;Hire more men, take the guards and deal with it.;;;;;;;;;;;;;x
+monowole.5.c;Tell the merchants to use another gate.;;;;;;;;;;;;;x
+monowole.5.d;They'll disband soon, I'm sure.;;;;;;;;;;;;;x
+monowole.6;The boring man;;;;;;;;;;;;;x
+monowole.6.desc.1;... And then, the brother of the baker told me it would nor work at all, so I told the lady from before that I found a new one... What do you think?;;;;;;;;;;;;;x
+monowole.6.desc.2;... And then, the man from the carriage tried to actually raise the wheel. RAISE. THE. WHEEL. Can you believe that?;;;;;;;;;;;;;x
+monowole.6.desc.3;... Again, and I said I liked it, and she asked again why didn't I like it, and I said again that I liked it...;;;;;;;;;;;;;x
+monowole.6.desc.4;... The moon was so dark then, and I saw none of the swordsmen at my side, and the wife... Oh, the wife! You won't believe what she said to me...;;;;;;;;;;;;;x
+monowole.6.desc.5;...[GetHighGodName] ! She said, and I said you can't speak [GetHighGodName]'s name in vain, but [GetHighGodName] she cried again and I couldn't take it anymore, the coin purse was so light I actually felt kind of, like, free, you know? But the...;;;;;;;;;;;;;x
+monowole.6.a;I'm sorry, what?;;;;;;;;;;;;;x
+desc = monowole.6.b.desc.1;What did the peasant say you did? Exploited the workers?;;;;;;;;;;;;;x
+desc = monowole.6.b.desc.2;What about the man with the strange clothes that was run down by a horseman?;;;;;;;;;;;;;x
+desc = monowole.6.b.desc.3;Knights of what? Did they hold you up?;;;;;;;;;;;;;x
+desc = monowole.6.b.desc.4;No wonder, the guard of the bridge must have been a great hero.;;;;;;;;;;;;;x
+desc = monowole.6.b.desc.5;Did you answer the three questions, then?;;;;;;;;;;;;;x
+monowole.6.b;So, who ruined the wedding, exactly?;;;;;;;;;;;;;x
+monowole.6.c;Yes, yes, whatever.;;;;;;;;;;;;;x
+monowole.6.d;Are you some sort of imbecile?;;;;;;;;;;;;;x
+monowole.7;The strange marriage;;;;;;;;;;;;;x
+monowole.7.desc;[GetTitledName], I ask your permission to marry a common serf that lived with my family all her life. She was born a year later after I brought her mother to my lands from a raid about 12 years ago.;;;;;;;;;;;;;x
+monowole.7.a;Yes, you have permission.;;;;;;;;;;;;;x
+monowole.7.b;I'll grant you permission, so long as you pay me the dowry.;;;;;;;;;;;;;x
+monowole.7.c;Wait... No.;;;;;;;;;;;;;x
+monowole.7.d;Your lands... No! NO! You disgusting ANIMAL! You filth!;;;;;;;;;;;;;x
+monowole.8;Too much stress and drink;;;;;;;;;;;;;x
+monowole.8.desc;After countless hours of hearing supplicants, your bottom hurts, your head aches, your eyes are blood-red with dryness, you see you've emptied at least two kegs of wine alone...;;;;;;;;;;;;;x
+monowole.8.a;It's the only way to cope...;;;;;;;;;;;;;x
+monowole.8.b;[GetHighGodName], kill me...;;;;;;;;;;;;;x
+monowole.8.c;It was duty.;;;;;;;;;;;;;x
+monowole.8.d;And tomorrow, again?!;;;;;;;;;;;;;x
+monowole.9;The man who speaks;;;;;;;;;;;;;x
+monowole.9.desc;That man has been standing and speaking for at least an hour. It seems important, but... ;;;;;;;;;;;;;x
+monowole.9.a;This fly has actually landed on all the heads of this court, amazing!;;;;;;;;;;;;;x
+monowole.9.b;Excuse me, but this wart on your forehead, since when do you have it?;;;;;;;;;;;;;x
+monowole.9.c;I'm sorry, the herd was led by whom?;;;;;;;;;;;;;x
+monowole.9.d;Yes, yes, do what you want, just stop speaking.;;;;;;;;;;;;;x
+monowole.10;Screaming in the courtyard;;;;;;;;;;;;;x
+monowole.10.desc;The last supplicant of today bowed, you start to feel the tension lifting up, your shoulders relax and you sit back for a moment before standing up after a particularly long day. Suddenly you hear screaming outside, you, some guards and courtiers rush to see what's the fuss about. Two women, beating down a man, both seem pregnant.;;;;;;;;;;;;;x
+monowole.10.a;Hah! Ladies, you do amuse me!;;;;;;;;;;;;;x
+monowole.10.b;What sort of debauchery is this?!;;;;;;;;;;;;;x
+monowole.10.c;I will not have chaos on my rule!;;;;;;;;;;;;;x
+monowole.10.d;Enough, please, there's no need for that.;;;;;;;;;;;;;x
+monowole.11;The jewish king's decision;;;;;;;;;;;;;x
+monowole.11.desc;Two women come to the court, one smearing the other, flaying their arms around. Both claim to be the mother of a child, and they claim the father was one of your warriors. A guard presents the child to you. One of the women strike a semblance with the child.;;;;;;;;;;;;;x
+monowole.11.a;It does look like the father, indeed, the mother is clearly the other one.;;;;;;;;;;;;;x
+monowole.11.b;It looks too much like the woman to be coincidence, it's clearly hers.;;;;;;;;;;;;;x
+monowole.11.c;Let them solve it themselves, it's their problem, not mine.;;;;;;;;;;;;;x
+monowole.11.d;Have you heard of King Solomon? A jewish king from ancient times... He solved such a case in a nice way...;;;;;;;;;;;;;x
+monowole.12;The poor are hungry.;;;;;;;;;;;;;x
+monowole.12.desc;[GetTitledName], liege, last season was too severe on the southern provinces and the merchants are raising the prices to absurd extents and many are starving. I humbly ask of you to donate some of your riches for us to help feed the poor.;;;;;;;;;;;;;x
+monowole.12.a;Of course, help them in any way you can!;;;;;;;;;;;;;x
+monowole.12.b;I can spare some money. It should suffice.;;;;;;;;;;;;;x
+monowole.12.c;We cannot spare the resources.;;;;;;;;;;;;;x
+monowole.12.d;LET THEM STARVE, ITLL MAKE THEM STRONGER;;;;;;;;;;;;;x
+monowole.13;Some new ideas for health;;;;;;;;;;;;;x
+monowole.13.desc.1;My [GetTitle], being a philosopher and physician I manage to spend enough time exploring new possibilities. These latest years I have been grooming an interesting idea for us to implement and to better treat some sorts of diseases, and better ways for the physicians cover the expenses and a sort of default price table for physicians to charge from customers, it would make treatment of said diseases more accessible to the poorest. ;;;;;;;;;;;;;x
+monowole.13.desc.2;[GetTitledName], last week I came from a very far away land, and there, their physicians use herbs and tea to treat wounds instead of spitting on them, very strange indeed. I managed to bring a lot of these herbs and would like to start teaching other physicians like myself to use such treatments.;;;;;;;;;;;;;x
+monowole.13.desc.3;[GetTitle], I have researched much about the subject of humours and diseases, and my research has led me to believe that great cities have more chance of having outbreaks of illnesses. Therefore I offer the suggestion that you train and bring more physicians to the biggest cities so that when an outbreak happens, we are more prepared.;;;;;;;;;;;;;x
+monowole.13.a;Well, I can help you for this season.;;;;;;;;;;;;;x
+monowole.13.b;Yes, brilliant idea! I will spare no expense, the populace deserves it!;;;;;;;;;;;;;x
+monowole.13.c;This is a ludicrous idea, I deny your request.;;;;;;;;;;;;;x
+monowole.13.d;What, there's money to be made on this?;;;;;;;;;;;;;x
+# monowole.14;;;;;;;;;;;;;;x
+# monowole.14.desc;;;;;;;;;;;;;;x
+# monowole.14.a;;;;;;;;;;;;;;x
+# monowole.14.b;;;;;;;;;;;;;;x
+# monowole.14.c;;;;;;;;;;;;;;x
+# monowole.14.d;;;;;;;;;;;;;;x
+monowole.15;Give away the leftovers;;;;;;;;;;;;;x
+monowole.15.desc;My [GetTitle], I honestly believe that you could show how great your rule is by giving away the leftovers of your banquets and dinners to the hungry and poor. I believe it would be a generous action that would please [GetHighGodName] and also please the populace.;;;;;;;;;;;;;x
+monowole.15.a;Yes, it sounds good, let everyone know my generosity.;;;;;;;;;;;;;x
+monowole.15.b;No, the cats, dogs and pigs are fed with those.;;;;;;;;;;;;;x
+monowole.15.c;No, absolutely not, this is ludicrous. Don't bother me with this again.;;;;;;;;;;;;;x
+monowole.16;Pissy neighbour;;;;;;;;;;;;;x
+monowole.16.desc;My [GetTItle], my neighbour has asked me for a loan last spring, and he still hasn't paid it. Now he flaunts his well-being and I am left to my ruin, he won't even speak to me! I demand him to be arrested and executed!;;;;;;;;;;;;;x
+monowole.16.a;So, you say you loaned him the money, did any of you seal the deal or have witnesses?;;;;;;;;;;;;;x
+monowole.16.b;Your demand seems fair and evidence seems sufficient. Arrest that man.;;;;;;;;;;;;;x
+monowole.16.c;I cannot decide that, bring him here for a fair trial.;;;;;;;;;;;;;x
+monowole.16.d;You are taking up my precious time, I will arrest you.;;;;;;;;;;;;;x
+monowole.16-1;The neighbour trial;;;;;;;;;;;;;x
+monowole.16-1.desc;After hearing both sides, it is true that the petitioner loaned the money, but the neighbour gave him back a cow and two goats, one male and female. It seems that the petitioner wanted actual money, but did not refuse the animals.;;;;;;;;;;;;;x
+monowole.16-1.a;Arrest the petitioner.;;;;;;;;;;;;;x
+monowole.16-1.b;Arrest the neighbour.;;;;;;;;;;;;;x
+monowole.16-1.c;Arrest both.;;;;;;;;;;;;;x
+monowole.16-1.d;Arrest no one and stipulate a fine to be paid to the accused by the petitioner and to the court.;;;;;;;;;;;;;x
+monowole.16-2;The neighbour trial;;;;;;;;;;;;;x
+monowole.16-2.desc;After much squirming and gnashing of teeth, you conclude that the neighbour's wife had given him the money back with interest by the end of last season, and apparently the petitioner wanted to take the land from the neighbour if he was to be arrested.;;;;;;;;;;;;;x
+monowole.16-2.a;Arrest the petitioner.;;;;;;;;;;;;;x
+monowole.16-2.b;Arrest the neighbour.;;;;;;;;;;;;;x
+monowole.16-2.c;Arrest both.;;;;;;;;;;;;;x
+monowole.16-2.d;Arrest no one and stipulate a heavy fine to be paid to the accused by the petitioner and to the court.;;;;;;;;;;;;;x
+monowole.16-3;The neighbour trial;;;;;;;;;;;;;x
+monowole.16-3.desc;The trial was longer than expected, there was screaming and threats thrown every time. But after hearing the whole story, it becomes clear to you that the claimant was right, and the neighbour had not even intended to pay back the loan.;;;;;;;;;;;;;x
+monowole.16-3.a;Arrest the petitioner.;;;;;;;;;;;;;x
+monowole.16-3.b;Arrest the neighbour.;;;;;;;;;;;;;x
+monowole.16-3.c;Arrest both.;;;;;;;;;;;;;x
+monowole.16-3.d;Arrest no one and stipulate a heavy fine to be paid to the petitioner by the accused and to the court.;;;;;;;;;;;;;x
+monowole.17;My brother and my wife betrayed me!;;;;;;;;;;;;;x
+monowole.17.desc;[GetTitle], after my last expedition with the army, I came back to my home, with what little I could pillage, I see my wife is with child, at first I thought a miracle, or maybe the expedition was shorter than I thought. When the child was born I was content, but after time went by I started to think, and every day I saw the resemblance of my brother on that child, I remembered he did not leave his lands to fight, he stayed. It was not long before I understood what had happened...;;;;;;;;;;;;;x
+monowole.17.a;This is really not the concern of the court.;;;;;;;;;;;;;x
+monowole.17.b;I cannot abide this, I grant you permission kill the brother and the wife! And the child too, if you want.;;;;;;;;;;;;;x
+monowole.17.c;No wonder, you're not man enough.;;;;;;;;;;;;;x
+monowole.18;The duel of cousins;;;;;;;;;;;;;x
+monowole.18.desc;My [GetTitle], after some heavy night of drinking and brawling, I have offended my cousin and he challenged me to a duel! I'm not a fighter, I can't even hold an axe properly! ;;;;;;;;;;;;;x
+monowole.18.a;I forbid this kind of behaviour! I need the men to fight the enemy, not themselves.;;;;;;;;;;;;;x
+monowole.18.b;I see, and I will save you from the duel... In the dungeons you'll be very safe.;;;;;;;;;;;;;x
+monowole.18.c;If you grant me some of your land and monies, I will provide you with the best armor and shield.;;;;;;;;;;;;;x
+monowole.18.d;A duel? I want to watch it!;;;;;;;;;;;;;x
+monowole.18-1;The duel takes place;;;;;;;;;;;;;x
+monowole.18-1.desc.1;The two armored men circle each other, one points to the other and shouts every few paces. Both seem nervous, they're agitated. When suddenly one of them charges with the shield, the other is caught off-guard and stumbles down, but the one standing hesitates after raising the sword for a blow. The fallen man kicks him, roll belly down and quickly get up and jumps forward. They both seem very tired now. The other charges once more with the shield, but now the man holds his ground. They clash swords but their hands seem feeble now and drop the weapons, they begin bashing each other's shield and screaming. They drop their shields, take off the helms and start kissing each other, the woman is screaming hysterically. It's a draw and the woman takes a knife and tries to stab them both they hold her down and take her away together.;;;;;;;;;;;;;x
+monowole.18-1.desc.2;After banging their swords in respect, the men violently start kicking each other. Each kick takes the balance off of both. They seem enraged and start hacking at each other with the swords. It is not long before one of them starts getting tired and misses the timing to defend with the shield. Blood is splattered all around, the shield-arm of one of them is useless now, but his right arm is still good and drops the shield. The wounded man parries every attack the other makes and eventually finds an opening and strikes at the leg, once more, blood is splattered all over. The woman is screaming and both men cannot continue for long, they are bleeding out and becoming weak. They slash at each otter to no avail and their tiredness becomes more apparent. One of them drops to his knees, but quickly tries to get up, the other takes the chance but lacks strength and both come down rolling. Some punches followed but eventually, both stopped, rolled to their sides and gave up. It's a draw.;;;;;;;;;;;;;x
+monowole.18-1.desc.3;As soon as one of them raises his shield, the other comes violently kicking and slashing at it, trying to break the shield, the mand cannot do anything but defend. Suddenly he gets the timing right and bashes the shield right into the attackers opening and hits him in the mouth and throws him back. The man spits out blood and something that looks like a few teeth, brushes the mouth with the sword-arm and screams. The other takes the oportunity to slash at his head, but misses when the screaming man dodges down and use this chance to strike at the attacker's torso. The sword comes out bloody from slashing his sides. The wounded man drops his sword and shield, takes off the helm and accepts defeat. The winner stands and points the sword at his neck, turns it and throws it into the ground, he kneels down and hugs the other man, the woman comes hurrying and the three start kissing each other, somehow someone of them is already taking the woman's clothes off and her top is bare, they then remember there's people watching, and they help each other and go away.;;;;;;;;;;;;;x
+monowole.18-1.a;Interesting turn of events.;;;;;;;;;;;;;x
+monowole.19;Marriage request;;;;;;;;;;;;;x
+monowole.19.desc.1;My [GetTitle], I love a woman and she loves me back, I would like your permission to marry her and be able to have my own children.;;;;;;;;;;;;;x
+monowole.19.desc.2;[GetTitledName] this is the most happy time of my life, I have found true love with my neighbour, I want to marry her and make it known that I am hers and she is mine.;;;;;;;;;;;;;x
+monowole.19.desc.3;Liege, it has been far too long that I have been looking for a spouse, I am becoming old and still have not married, I have found a suitable bride and her father has promised me the dowry, I would like your permission to marry her.;;;;;;;;;;;;;x
+monowole.19.a;Of course, may [GetHighGodName] grant you happiness and many children!;;;;;;;;;;;;;x
+monowole.19.b;Well, you see, there's a lot of people here who want to marry, why don't you pay the fee like everyone else?;;;;;;;;;;;;;x
+monowole.19.c;Well, you do know that I can reclaim the prima nocte, correct?;;;;;;;;;;;;;x
+monowole.19.d;No, I will not grant it to you. I'm sure you will find another suitor.;;;;;;;;;;;;;x
+monowole.20;Marriage request;;;;;;;;;;;;;x
+monowole.20.desc.1;[GetTitle], I know it is not customary for a woman like me to ask this, but I have the utmost passion for my neighbour, we know each other since childhood, and he finally got the courage to show his affect for me. I want your permission to marry him.;;;;;;;;;;;;;x
+monowole.20.desc.2;Liege, it has been many years since my first husband died in the war and left me with no children, there is a man who works under my family and I have grown very fond of him and he shows interest. I want your permission to marry him.;;;;;;;;;;;;;x
+monowole.20.desc.3;[GetTitledName] the wisest [GetTitle], after my last travel I have brought with me a serf to serve under my house, and his diligent work has made me notice him. He serves me well, very well indeed. He has grown very passionate of me and I of him. Will you allow us to marry?;;;;;;;;;;;;;x
+monowole.20.a;Yes, may you have many children!;;;;;;;;;;;;;x
+monowole.20.b;For you, I can grant a special fee...;;;;;;;;;;;;;x
+monowole.20.c;Yes, and you will spend the first night in my dungeon.;;;;;;;;;;;;;x
+monowole.20.d;No, I will not allow this.;;;;;;;;;;;;;x
+monowole.21;A son;;;;;;;;;;;;;x
+monowole.21.desc.1;My [GetTitle], my son was boor last week, I have come to present him to you and to the court!;;;;;;;;;;;;;x
+monowole.21.desc.2;Liege, this child my wife holds is my boy, my little boy born this fortnight, I have come here to present him to you!;;;;;;;;;;;;;x
+monowole.21.desc.3;This is my boy, My boy! He is mine! Came from our loins! He is my heir! And I am proud! I have come here to show him to you!;;;;;;;;;;;;;x
+monowole.21.a;A beautiful child, I can see he will become a mighty warrior one day!;;;;;;;;;;;;;x
+monowole.21.b;You... I've seen you... You are the one from my dreams... Then the stars were right. I will help you raise this child!;;;;;;;;;;;;;x
+monowole.21.c;Yes, I see, it's a child. Great. Pay.;;;;;;;;;;;;;x
+monowole.21.d;Good, another son.;;;;;;;;;;;;;x
+monowole.22;A daughter;;;;;;;;;;;;;x
+monowole.22.desc.1;My [GetTitle], on the last full moon was born my daughter, and I come here for you to acknowledge her as a child under your banner.;;;;;;;;;;;;;x
+monowole.22.desc.2;Liege, this little girl is mine, she was born this fortnight and I came here to present her to you.;;;;;;;;;;;;;x
+monowole.22.desc.3;This is my girl. My girl! She was born last night, and I came here to present her to all of you!;;;;;;;;;;;;;x
+monowole.22.a;A marvellous girl! Your family will be happy. I wish you happiness.;;;;;;;;;;;;;x
+monowole.22.b;She's... Beautiful... I can sense something in her. I will help you raise this child!;;;;;;;;;;;;;x
+monowole.22.c;Good, a daughter.;;;;;;;;;;;;;x
+monowole.22.d;Yes, it's a child, why should I care? Just pay and be gone.;;;;;;;;;;;;;x
+monowole.22-1;The child presented came;;;;;;;;;;;;;x
+monowole.22-1.desc;The child that was presented at court 16 years ago has come to your court.;;;;;;;;;;;;;x
+monowole.22-1.a;Excellent.;;;;;;;;;;;;;x
+monowole.23;Treachery!;;;;;;;;;;;;;x
+monowole.23.desc.1;The petitioner stops speaking, his eyes are reddening remarkably quickly, you feel something is wrong. Clearly, the petitioner was enraged by your reaction or that of the courtieris, or maybe he simply hates life and want to die. You see him unsheating his sword and lunging at you, hatred boiling in his eyes and you feel the world slow down around you...;;;;;;;;;;;;;x
+monowole.23.desc.2;The petitioner stops speaking, his eyes are reddening remarkably quickly, you feel something is wrong. Clearly, the petitioner was enraged by your reaction or that of the courtieris. You see him grabbing his axe and lunging at you, profound hatred and a rage translated into a trembling hand. You feel the world slow down around you...;;;;;;;;;;;;;x
+monowole.23.desc.3;The petitioner stops speaking, his eyes are reddening remarkably quickly, you feel something is wrong. Clearly, the petitioner was enraged by your reaction or that of the courtieris, or maybe he simply hates life and want to die. You see him unsheating a dagger and running towards you, tears boiling in his eyes and you feel the world slow down around you...;;;;;;;;;;;;;x
+monowole.23.desc.4;The supplicant stops speaking, his head reddening, you feel something is definitely wrong. The supplicant was enraged by your reaction or that of the courtieris, he cares not for his life anymore. You see him unsheating his sword and running screaming at you, hatred boiling in his voice and you suddenly feel the world slow down around you...;;;;;;;;;;;;;x
+monowole.23.desc.5;The supplicant screams enraged, you feel something obviously wrong. The petitioner was enraged and he values his life no more. You see him unsheating his shortsword and lunging at you, hatred boiling in his eyes and you feel the world slow down around you...;;;;;;;;;;;;;x
+monowole.23.a;You decide do duck and roll to the side and try to escape.;;;;;;;;;;;;;x
+monowole.23.b;You decide to stand and fight, you unsheathe your sword.;;;;;;;;;;;;;x
+monowole.23-1;That was close!;;;;;;;;;;;;;x
+monowole.23-1.desc.1;The assassin lunged so quickly at you you barely had the time to react, but your hand was already at your sword and before it was completely off its sheathe, you managed to hold and block their attack. But befor you know it, he slashed again, but you managed to parry this attack.;;;;;;;;;;;;;x
+monowole.23-1.desc.2;The assassin darted at you so quickly you barely had the time to react, fortunately you were already readying yourself, so you managed to block with the sword half-sheathed. As soon as block was felt, the assassin tried to attack again from the other side, but you were quicker and kicked him off, now you both are ready to fight each other.;;;;;;;;;;;;;x
+monowole.23-1.desc.3;The assassin came at you quick, but not enough. You unsheathed your sword and as their attack was about to land you parried it and slided your sword through their weapon and used the pommel to hit them in the face. While the assassin dodged, you managed to hit their chest, and that was enough to hold him. Now you stand at the ready.;;;;;;;;;;;;;x
+monowole.23-1.a;Try to hold him in place through combat.;;;;;;;;;;;;;x
+monowole.23-1.b;Charge him and attack before he attacks you.;;;;;;;;;;;;;x
+monowole.23-1.c;Stand and wait.;;;;;;;;;;;;;x
+monowole.23-2;The assassin did not reach you;;;;;;;;;;;;;x
+monowole.23-2.desc.1;The assassin stumbled and could not make it towards you and is now surrounded by the guards and some of your courtiers.;;;;;;;;;;;;;x
+monowole.23-2.desc.2;The assassin was not quick enough to reach you and is now surrounded by the guards.;;;;;;;;;;;;;x
+monowole.23-2.desc.3;The assassin was hesitant to run all the way toward you and stopped mid-way and is now surrounded by guards.;;;;;;;;;;;;;x
+monowole.23-2.a;"""Arrest him!""";;;;;;;;;;;;;x
+monowole.23-2.b;Charge him and try to attack.;;;;;;;;;;;;;x
+monowole.23-2.c;Run and escape before any harm befalls you;;;;;;;;;;;;;x
+monowole.23-3;The assassin reached you and it's too late;;;;;;;;;;;;;x
+monowole.23-3.desc.1;The assassin managed to reach you before anything else, and when you noticed, the weapon had opened your throat. You see the blood dripping out. Your blood.;;;;;;;;;;;;;x
+monowole.23-3.desc.2;The assassin managed to reach you before anything else, and when you noticed, the weapon had slashed open your chest. You see blood pumping out.;;;;;;;;;;;;;x
+monowole.23-3.desc.3;The assassin managed to reach you before anything else, and when you noticed, the weapon had tore open your belly. You see blood gushing out. Your blood.;;;;;;;;;;;;;x
+monowole.23-3.desc.4;The assassin managed to reach you before anything else, and when you noticed, the weapon had opened your backside. You see the blood dripping on the floor. Your blood.;;;;;;;;;;;;;x
+monowole.23-3.desc.5;The assassin managed to reach you before anything else, and when you noticed, the weapon had went through your chest. The blood is running through the floor. It's yours.;;;;;;;;;;;;;x
+monowole.23-3.a;Ghhgh!;;;;;;;;;;;;;x
+mono-gasp-dying.1;Ghhharghhh!;;;;;;;;;;;;;x
+mono-gasp-dying.2;Hnnngh!;;;;;;;;;;;;;x
+mono-gasp-dying.3;Grrhhhhhh!;;;;;;;;;;;;;x
+mono-gasp-dying.4;Hhhnnnn-aaaagh!;;;;;;;;;;;;;x
+mono-gasp-dying.5;Hnnnngh!;;;;;;;;;;;;;x
+monowole.23-3.b;...;;;;;;;;;;;;;x
+monowole.23-3.c;Nnnnghh!;;;;;;;;;;;;;x
+mono-cowrd-dying.1;N-nahhhhhgh!;;;;;;;;;;;;;x
+mono-cowrd-dying.2;N-hhhhooo!;;;;;;;;;;;;;x
+mono-cowrd-dying.3;Nhhhhhhhghhhh!;;;;;;;;;;;;;x
+mono-cowrd-dying.4;Gh-nh nhhhhhgh!;;;;;;;;;;;;;x
+mono-cowrd-dying.5;Bhgh nnnnngh!;;;;;;;;;;;;;x
+monowole.23-2-1;You parry and it is done!;;;;;;;;;;;;;x
+monowole.23-2-1.desc.1;"You keep parrying his attacks, you slash at him and you feint one left attack and there's an opening, you can only go forward! /n Your sword is through the assassin's throat. Everyone starts cheering ""[GetTitledName]!"", ""[GetFirstNameWithNick]!"", ""[GetFullName]!"".";;;;;;;;;;;;;x
+monowole.23-2-1.desc.2;"You keep parrying his attacks, you slash at him and you feint one low attack and there's an opening, you can only go forward! /n Your sword is through the assassin's chest. Everyone starts cheering ""[GetTitledName]!"", ""[GetFirstNameWithNick]!"", ""[GetFullName]!"".";;;;;;;;;;;;;x
+monowole.23-2-1.desc.3;"You keep parrying his attacks, you slash at him and you feint one high attack and there's an opening, you can only go forward! /n Your sword is through the assassin's eyes. Everyone starts cheering ""[GetTitledName]!"", ""[GetFirstNameWithNick]!"", ""[GetFullName]!"".";;;;;;;;;;;;;x
+monowole.23-2-1.a;Die! DIE! DIE!;;;;;;;;;;;;;x
+monowole.23-2-2;You manage to hold the assasin off;;;;;;;;;;;;;x
+monowole.23-2-2.desc.1;You fight and parry, parry and parry again, you strike and the assassin parries, he tries to kick, you dodge, you slash again and it is blocked. You stop looking at the eyes and are watching the footwork. /n You see the weapon fall to the ground, and soon the assassin falls flat, with the tip of the spear of one of the guards through the head. Some men scream and cheer.;;;;;;;;;;;;;x
+monowole.23-2-2.desc.2;A whirlwind of slashing left and right, parries, you lose count of how many attacks you parried but you strike and the assassin dodges, only to fall with the neck on a guard's dagger, suddenly other 3 spears go through the chest. Everyone begins to cheer.;;;;;;;;;;;;;x
+monowole.23-2-2.desc.3;You parry the assassin's weapon and manages to throw it far, one of thet guards slides his spear through the chest, you look at the guard and he smiles at you and everyone starts cheering.;;;;;;;;;;;;;x
+monowole.23-2-3;You parry, then the assassin parries;;;;;;;;;;;;;x
+monowole.23-2-3.desc;You parry, then the assassin parries. You puff and you feel an imbalance. /n When you notice it, you feel a burning in your chest. /n You are bleeding.;;;;;;;;;;;;;x
+monowole.23-2-3.a;But... How...?;;;;;;;;;;;;;x
+monowole.death1;You feel the cold;;;;;;;;;;;;;x
+monowole.death1.desc.1;You feel the cold shivering up your spine, it's embracing you. There's nothing left for you in this world.;;;;;;;;;;;;;x
+monowole.death1.desc.2;The darkness is coming, you feel it taking hold of your body. It is over.;;;;;;;;;;;;;x
+monowole.death1.desc.3;Your vision starts blurring, sundenly it starts fading into blackness. You feel your life is over.;;;;;;;;;;;;;x
+monowole.death1.a;It is over now...;;;;;;;;;;;;;x
+monowole.23-1-1;The guards reach the assassin.;;;;;;;;;;;;;x
+monowole.23-1-1.desc;The guards surround and start attacking the assassin, there is no escape, only a flurry of blows and parries until there's blood flying. They fought hard and when it was over, the assassin laid in a puddle of blood on the ground.;;;;;;;;;;;;;x
+monowole.23-1-1.a;It is over now.;;;;;;;;;;;;;x
+monowole.23-1-2;The guards reach the assassin.;;;;;;;;;;;;;x
+monowole.23-1-2.desc;The guards try to surround the assassin, there should be no escape, but he parried a blow and threw a guard to the floor, the cluttering of people stumbled on itself and when the confusion was over, the assassin was nowhere to be found.;;;;;;;;;;;;;x
+monowole.23-1-2.a;How did this happen?!;;;;;;;;;;;;;x
+monowole.23-1-3;The easy way out;;;;;;;;;;;;;x
+monowole.23-1-3.desc;The guards surround the assassin, there was no escape, but before they had a chance to take him, he slit his own throat.;;;;;;;;;;;;;x
+monowole.23-1-3.a;Coward or brave?;;;;;;;;;;;;;x
+monowole.24;What is happening?;;;;;;;;;;;;;x
+monowole.24.desc.1;The petitioner stands quietly, you expect something but you're not sure what exactly. Suddenly, in an ever so quick movement, he unsheates a hidden dagger and lunges at you with lightning speed!;;;;;;;;;;;;;x
+monowole.24.desc.2;The petitioner doesn't show up, people begin to chatter. There's an uneasy silence and you feel there's something wrong in the air, suddenly, out of the crowd, a guard tumbles down gushing blood, and a man from behind him grabs his spear an comes running and jumping toward you!;;;;;;;;;;;;;x
+monowole.24.desc.3;The petitioner walks much closer to you than it is customary. You can sense there is something wrong with the crowd, and the courtiers also feel it. The petitioner seems to be trying to hide his face by bending the head so low you begin to bend forward to try and look at it. /n when you see it, he grabs a sword from under his clothing and lunges at you with an incredible speed!;;;;;;;;;;;;;x
+monowole.24.a;You decide do duck and roll to the side and try to escape.;;;;;;;;;;;;;x
+monowole.24.b;You decide to stand and fight, you unsheathe your sword.;;;;;;;;;;;;;x
+monowole.25;A gift from far away.;;;;;;;;;;;;;x
+monowole.25.desc.1;[GetTitledName], my brother has spent many years on the silk road and finally came back home. As a gesture of gratitude and goodwill he brings you these gifts.;;;;;;;;;;;;;x
+monowole.25.desc.2;My [GetTitle], I have returned from a great business trip, and the profit was such that I decided to give you a small part of it as gratitude for your goodwill and fair ruleship.;;;;;;;;;;;;;x
+monowole.25.desc.3;My [GetTitle], I have just closed an enormous deal with some foreigners and the profit was such that I decided to give you a small part of it as gratitude for your goodwill and fair ruleship.;;;;;;;;;;;;;x
+monowole.25.a;I want MORE!;;;;;;;;;;;;;x
+monowole.25.b;Excellent! I am grateful!;;;;;;;;;;;;;x
+monowole.25.c;There's no need for that, but I thank you very much.;;;;;;;;;;;;;x
